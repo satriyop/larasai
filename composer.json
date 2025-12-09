@@ -1,0 +1,54 @@
+{
+    "name": "larasai/user-stories",
+    "description": "Laravel Artisan commands for managing User Stories, Acceptance Criteria, and test documentation",
+    "keywords": [
+        "laravel",
+        "user-stories",
+        "acceptance-criteria",
+        "testing",
+        "documentation",
+        "artisan"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Satriyo",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/console": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0",
+        "laravel/prompts": "^0.1|^0.2|^0.3"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "pestphp/pest": "^2.0|^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larasai\\UserStories\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Larasai\\UserStories\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larasai\\UserStories\\UserStoriesServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

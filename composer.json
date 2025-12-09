@@ -7,15 +7,23 @@
         "acceptance-criteria",
         "testing",
         "documentation",
-        "artisan"
+        "artisan",
+        "bdd",
+        "tdd"
     ],
+    "homepage": "https://github.com/satriyop/larasai",
     "license": "MIT",
     "authors": [
         {
             "name": "Satriyo",
+            "homepage": "https://github.com/satriyop",
             "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/satriyop/larasai/issues",
+        "source": "https://github.com/satriyop/larasai"
+    },
     "require": {
         "php": "^8.2",
         "illuminate/console": "^11.0|^12.0",
